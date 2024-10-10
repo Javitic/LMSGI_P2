@@ -1,0 +1,59 @@
+#tit {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+caption {
+    color: brown;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    width: 100px;
+    border: 2px solid black;
+    padding: 4px;
+    text-align: center;
+}
+
+th {
+    background-color: green;
+}
+
+.LMSGI {
+    background-color: aqua;
+}
+
+.BD {
+    background-color: blueviolet;
+}
+
+.P_ED {
+    background-color: bisque;
+}
+
+.SI {
+    background-color: crimson;
+}
+
+.AN {
+    background-color: darkseagreen;
+}
+
+.TUT {
+    background-color: goldenrod;
+}
+
+.IPOI {
+    background-color: darkmagenta;
+}
+
+.DIW {
+    background-color: orange;
+}
