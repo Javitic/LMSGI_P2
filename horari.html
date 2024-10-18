@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html id="horari">
     <head>
         <meta charset="UTF-8">
         <title>Horari</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
         <h1 id="tit">Horari</h1>
@@ -18,23 +18,18 @@
                 <th>divendres</th>
             </tr>
             <tr>
-                <td>8:00 - 9:00</td>
-                <td class="LMSGI">LMSGI</td>
-                <td class="BD">BD</td>
-                <td class="P_ED">P+ED</td>
-                <td class="SI">SI</td>
-                <td class="BD">BD</td>
+                <td class="horas">8:00 - 9:00</td>
+                <td rowspan="2" class="LMSGI">LMSGI</td>
+                <td rowspan="2" class="BD">BD</td>
+                <td rowspan="2" class="P_ED">P+ED</td>
+                <td rowspan="2" class="SI">SI</td>
+                <td rowspan="2" class="BD">BD</td>
             </tr>
             <tr>
-                <td>9:00 - 10:00</td>
-                <td class="LMSGI">LMSGI</td>
-                <td class="BD">BD</td>
-                <td class="P_ED">P+ED</td>
-                <td class="SI">SI</td>
-                <td class="BD">BD</td>
+                <td class="horas">9:00 - 10:00</td>
             </tr>
             <tr>
-                <td>10:00 - 11:00</td>
+                <td class="horas">10:00 - 11:00</td>
                 <td class="P_ED">P+ED</td>
                 <td class="TUT">TUT</td>
                 <td class="AN">AN</td>
@@ -42,27 +37,19 @@
                 <td class="P_ED">P+ED</td>
             </tr>
             <tr>
-                <td>Descans</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td id="descans" colspan="6">Descans</td>
             </tr>
             <tr>
-                <td>11:30 - 12:30</td>
+                <td class="horas">11:30 - 12:30</td>
                 <td class="P_ED">P+ED</td>
-                <td class="DIW">DIW</td>
-                <td class="IPOI">IPOI</td>
-                <td class="P_ED">P+ED</td>
+                <td rowspan="2" class="DIW">DIW</td>
+                <td rowspan="2" class="IPOI">IPOI</td>
+                <td rowspan="2" class="P_ED">P+ED</td>
                 <td class="P_ED">P+ED</td>
             </tr>
             <tr>
-                <td>12:30 - 13:30</td>
-                <td class="DIW">DIW</td>
+                <td class="horas">12:30 - 13:30</td>
                 <td class="IPOI">IPOI</td>
-                <td class="IPOI">IPOI</td>
-                <td class="P_ED">P+ED</td>
                 <td class="SI">SI</td>
             </tr>
         </table>
